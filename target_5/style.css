@@ -12,24 +12,33 @@ body {
 }
 
 div {
-  width: 100px;
-  height: 100px;
-}
-
-.up, .circ {
-  background: #F3AC3C;
-}
-
-.up2 {
-  background: #998235;
+  width: 120px;
+  height: 120px;
 }
 
 .up, .up2 {
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   border-top-left-radius: 50%;
+  position: absolute;
+}
+
+.up {
+  background: #F3AC3C;
+  margin-top: 150px;
+  margin-left: 80px;
+}
+
+.up2 {
+  background: #998235;
+  margin-top: 90px;
+  margin-left: 140px;
 }
 
 .circ {
   border-radius: 50%;
+  background: #F3AC3C;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 200px;
 }
