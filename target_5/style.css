@@ -16,6 +16,20 @@ div {
   height: 100px;
 }
 
-.up {
+.up, .circ {
+  background: #F3AC3C;
+}
 
+.up2 {
+  background: #998235;
+}
+
+.up, .up2 {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
+
+.circ {
+  border-radius: 50%;
 }
