@@ -14,13 +14,23 @@ body {
 .first, .second, .third {
   width: 150px;
   height: 150px;
-  border-top-left-radius: 50%;
-  border-bottom-right-radius: 50%;
+  border-top-left-radius: 60%;
+  border-bottom-right-radius: 60%;
   position: absolute;
+  margin-top: 75px;
 }
 
 .first {
   background: #1A4341;
-  margin-top: 75px;
-  margin-left: 50px;
+  margin-left: 75px;
+}
+
+.second {
+  background: #998235;
+  margin-left: 125px;
+}
+
+.third {
+  background: #F3AC3C;
+  margin-left: 175px;
 }
