@@ -1,0 +1,16 @@
+body {
+  background: black;
+}
+
+.page {
+  width: 400px;
+  height: 300px;
+  background: #222730;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+}
+
+.rect {
+  
+}
