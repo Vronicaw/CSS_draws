@@ -28,6 +28,12 @@ body {
   background: #84271C;
   width: 50px;
   height: 50px;
+  position: absolute;
+  border-radius: 50%;
+  border: 25px solid #191210;
+  box-shadow: 0 0 0 20px #ECA03D;
+  margin-top: 105px;
+  margin-left: 150px;
 }
 
 .medio2 {
