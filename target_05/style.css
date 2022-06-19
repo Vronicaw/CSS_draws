@@ -1,0 +1,44 @@
+body {
+  background: black;
+}
+
+.page {
+  background: #0B2429;
+  width: 400px;
+  height: 300px;
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+}
+
+div {
+  width: 120px;
+  height: 120px;
+}
+
+.up, .up2 {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  position: absolute;
+}
+
+.up {
+  background: #F3AC3C;
+  margin-top: 150px;
+  margin-left: 80px;
+}
+
+.up2 {
+  background: #998235;
+  margin-top: 90px;
+  margin-left: 140px;
+}
+
+.circ {
+  border-radius: 50%;
+  background: #F3AC3C;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 200px;
+}
