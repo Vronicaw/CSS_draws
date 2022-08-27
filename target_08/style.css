@@ -1,0 +1,78 @@
+body {
+  background: black;
+}
+
+.page {
+  width: 400px;
+  height: 300px;
+  background: #6592CF;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+}
+
+.mango, .circ, .db1, .db2, .db3, .db4 {
+  background: #060F55;
+  position:  absolute;
+}
+
+.lb1, .lb2, .lb3 {
+  width: 20px;
+  height: 80px;
+  background: #6592CF;
+  position:  absolute;
+}
+
+.mango {
+  width: 20px;
+  height: 80px;
+  margin-top: 220px;
+  margin-left: 190px;
+}
+
+.circ {
+  width: 140px;
+  height: 190px;
+  border-bottom-left-radius: 60%;
+  border-bottom-right-radius: 60%;
+  margin-top: 60px;
+  margin-left: 130px;
+}
+
+/*dark blue sticks*/
+.db1, .db2, .db3, .db4 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.db1 {
+  margin-left: 130px;
+}
+
+.db2 {
+  margin-left: 170px;
+}
+
+.db3 {
+  margin-left: 210px;
+}
+
+.db4 {
+  margin-left: 250px;
+}
+
+/*light blue sticks*/
+.lb1c, .lb2c, .lb3c {
+  width: 20px;
+  height: 20px;
+  background: #6592CF;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 150px;
+}
+
+.lb1c {
+  margin-left: 150px;
+}
